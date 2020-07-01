@@ -1,0 +1,33 @@
+.symbol {
+ background-image: url(../symbol/sl.png);
+ background-repeat: no-repeat;
+ background-size: contain;
+ height: 85px;
+ width: 85px;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ z-index: 99;
+ opacity: 0;
+}
+
+.btn {
+ position: absolute;
+ top: 80%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ background-color: #5550;
+ color: white;
+ font-size: 16px;
+ padding: 12px 24px;
+ border: solid 0.5px white;
+ cursor: pointer;
+ border-radius: 5px;
+ text-align: center;
+ z-index: 99;
+}
+
+.btn:hover {
+ background-color:#d3d3d354;
+}
